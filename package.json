@@ -1,0 +1,9 @@
+{
+  "name": "Learn-go",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "go": "nodemon -e go,js,css,gohtml  --exec go run app.go"
+  }
+}

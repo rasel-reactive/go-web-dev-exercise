@@ -1,0 +1,15 @@
+<h1>Home Page Html</h1>
+
+
+
+<ul>
+
+
+
+  {{ range $index, $element := .persons}}
+    <li>{{ upper $element}}</li>
+  {{end}}
+
+        <li>{{ date .timestamp }}</li>
+</ul>
+
